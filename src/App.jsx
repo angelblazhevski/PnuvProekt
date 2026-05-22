@@ -300,9 +300,6 @@ export default function App() {
                 <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-6 bg-slate-900/80 backdrop-blur-md p-6 md:p-8 rounded-3xl border border-slate-800 shadow-2xl relative overflow-hidden w-full text-left print:hidden">
                     <div className="absolute top-0 right-0 w-64 h-64 bg-indigo-500/5 rounded-full blur-3xl -z-10"></div>
                     <div className="text-left">
-            <span className="bg-indigo-500/15 text-indigo-300 text-[11px] font-extrabold px-3 py-1 rounded-full uppercase tracking-widest border border-indigo-500/20 shadow-sm inline-block">
-              Предмет: ПНУВ | Студентски Проект
-            </span>
                         <h1 className="text-3xl md:text-4xl font-extrabold text-white tracking-tight mt-3 flex items-center gap-3 text-left">
                             <span className="text-4xl drop-shadow-md">🎒</span> HBSC Дигитален Wellbeing Центар
                         </h1>
@@ -819,7 +816,7 @@ export default function App() {
             </div>
 
             <footer className="w-full text-center py-5 text-xs text-slate-500 border-t border-slate-900 bg-slate-950 block print:hidden">
-                &copy; {new Date().getFullYear()} Предмет ПНУВ - Дигитално едукативно решение за младинска благосостојба во Македонија.
+                &copy; {new Date().getFullYear()} Ангел Блажевски - Дигитално едукативно решение за младинска благосостојба во Македонија.
             </footer>
         </div>
     );
